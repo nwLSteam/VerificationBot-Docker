@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  verificationbot:
+    image: visate/verificationbot:latest
+    restart: unless-stopped
+    container_name: verificationbot
+    build: ./build
+    volumes:
+      - './data/lists:/app/lists'
+      - './data/config/config.json:/app/config.json'

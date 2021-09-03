@@ -1,0 +1,7 @@
+# any live data must not be submitted
+/data/config/config.json
+/data/lists/modules.txt
+/data/lists/roles.json
+
+# no, JetBrains, stay out of my Git folder
+/.idea

@@ -1,0 +1,7 @@
+# This file lists any modules that are to be loaded by the client.
+# Any line starting with # is ignored.
+
+general
+owner
+verification
+roles
